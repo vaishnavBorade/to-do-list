@@ -3,9 +3,9 @@ import React from 'react'
 const TodoItem = ({index, todo, toggleComplete, handleDelete}) => {
   return (
     <>
-      <div>
+      <span>
         {todo.text}
-      </div>
+      </span>
       <button onClick={()=>{toggleComplete(index)}}>
         complete
       </button>

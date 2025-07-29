@@ -41,13 +41,15 @@ function App() {
 
         <ul>
           {todos.map((todo,i) => (
-            <TodoItem 
-              key = {i}
-              index = {i}
-              todo = {todo}
-              toggleComplete = {toggleComplete}
-              handleDelete = {handleDelete}
-            />
+            <li>
+              <TodoItem 
+                key = {i}
+                index = {i}
+                todo = {todo}
+                toggleComplete = {toggleComplete}
+                handleDelete = {handleDelete}
+              />
+            </li>
           ))}
         </ul>
       </div>

@@ -1,12 +1,45 @@
-# React + Vite
+# 📝 React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and minimal To-Do List application built using **React.js**. Users can add tasks, mark them as completed, delete them, and the tasks are stored in **localStorage** to persist between page reloads.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add new tasks
+- ✏️ Mark tasks as complete/incomplete
+- 🗑️ Delete tasks
+- 💾 Local storage support (data is not lost on refresh)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshot
+
+> _(Add your app screenshot here if you'd like)_
+
+---
+
+## 🔧 Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- CSS
+- LocalStorage API
+
+---
+
+## 🛠️ How to Run Locally
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/react-todo-app.git
+   cd react-todo-app
+2. Install dependencies
+   ```bash
+   npm install
+
+3. Start the development server
+   ```bash
+   npm start
+
+Open http://localhost:3000 in your browser to use the app.

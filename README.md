@@ -40,6 +40,6 @@ A simple and minimal To-Do List application built using **React.js**. Users can 
 
 3. Start the development server
    ```bash
-   npm start
+   npm run dev
 
 Open http://localhost:3000 in your browser to use the app.
